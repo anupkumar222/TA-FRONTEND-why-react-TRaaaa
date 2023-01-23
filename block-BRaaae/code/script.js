@@ -51,17 +51,16 @@ let elm = React.createElement
 function createMovieUI(data, root) {
     // root.innerHTML = '';
    let ui = data.map((movie, i) => {
+    console.log(movie);
         let li = elm('li', {},
         elm('label', {
-            for: i,
-            innerText : movie.name
-        }),
+            for: i, 
+        }, movie.name),
         
         elm('button', {
             id : i,
             function: addEventListener('click', handleChange),
-            innerText : movie.watched ? 'Watched' : 'To Watch',
-        }),   
+        }, movie.watched ? 'Watched' : 'To Watch'),   
         );
         return li;
     })
