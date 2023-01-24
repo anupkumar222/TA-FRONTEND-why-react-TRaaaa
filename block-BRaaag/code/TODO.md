@@ -1,21 +1,14 @@
-#### Refactor with React and ReactDOM
+Movie App with JSX
+Copy the code from previous exercise
+Refactor it to use JSX using babel
+Use the links given below for babel
+Make sure to follow the example for writing JSX
+Basic Info
+CDN url for babel to use in our project.
 
-- Copy the code for Movie Watch List app you created in the last exercise
-- Refactor the app to use `React` and `ReactDOM`
-- We will use `React` to create element and `ReactDOM` to render the element on DOM
-- Check if the application is working properly
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+While using Babel don't forget to change type attribute of script element.
 
-#### Extra Info
-
-CDN url for React and ReactDOM.
-
-```html
-<script
-  crossorigin
-  src="https://unpkg.com/react@17/umd/react.development.js"
-></script>
-<script
-  crossorigin
-  src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
-></script>
-```
+<script type="text/babel">
+  // JSX code goes here
+</script>
