@@ -3,8 +3,9 @@
 - Create a news app similar to the one give in preview (named Gizmo).
 - Break down the home page into different components.
 - It needs to have all these components `Header, Hero, Articles, Article, Footer`
-- Use the data given below to create the articles with different information
+- Use the data given below to create the articles with different information.
 - The blueprint for the UI is given. Follow the patterns given in the preview and add anything you want.
+//...
 
 #### Preview
 
@@ -20,7 +21,7 @@
       "Bitcoin's price volatility has declined following the network's third mining reward halving event on Monday.",
     url:
       'https://www.coindesk.com/third-blockchain-halving-turns-out-non-event-bitcoins-price',
-    urlToImage:
+    urlToImage: 
       'https://static.coindesk.com/wp-content/uploads/2020/05/btc-chart-may-12-1200x628.png',
     publishedAt: '2020-05-12T11:40:34Z',
     content:
