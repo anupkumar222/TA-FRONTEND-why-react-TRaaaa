@@ -22,7 +22,7 @@
     url:
       'https://www.coindesk.com/third-blockchain-halving-turns-out-non-event-bitcoins-price',
     urlToImage: 
-      'https://static.coindesk.com/wp-content/uploads/2020/05/btc-chart-may-12-1200x628.png',
+      'https://img.freepik.com/free-vector/cryptocurrency-bitcoin-golden-coins-isolated-white_1017-31520.jpg?w=2000',
     publishedAt: '2020-05-12T11:40:34Z',
     content:
       "Bitcoin's price volatility has declined following the network's third mining reward halving event on Monday.  \r\nThe reward per block mined on bitcoin's blockchain was reduced to 6.25 BTC from 12.5 BTC at 19:23 UTC, when the cryptocurrency was trading near $8,… [+3792 chars]",
