@@ -1,0 +1,134 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* custom css */
+.container {
+    width: 50%;
+    margin: 1rem auto;
+}
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 1.7rem;
+    font-weight: 900;
+    background-color: orange;
+    padding: 0.5rem
+    ;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+}
+nav {
+    margin-top: 0.5rem;
+}
+.hero {
+    position: relative;
+}
+h2 {
+    font-size: 4rem;
+}
+.hero_content p {
+    font-size: 2rem;
+}
+.hero_content {
+position: absolute;
+bottom: 3rem;
+left: 5rem;
+color: blanchedalmond;
+}
+/* articles  */
+.articles {
+    padding: 1rem 0;
+}
+h2 {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #35691F;
+}
+.articles img{
+    width: 100%;
+}
+article {
+    box-shadow: 1px 1px 10px 1PX black;
+    min-height: 400px;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+.text {
+    padding: .3rem;
+}
+h4 {
+    color: white;
+    font-weight: 600;
+}
+h5 {
+    margin: .4rem 0;
+    color: #35691F;
+}
+p{
+    text-align: left;
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #35691F;
+    color: white;
+    padding: .3rem;
+    margin-top: .4rem;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 1rem;
+}
